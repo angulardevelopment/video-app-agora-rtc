@@ -5,7 +5,7 @@ video-app-agora-rtc
 
 <p align="center">
 <a href="#">
-<img src="../src/assets/download.jpg" width="200px" alt="agora"/>
+<img src="src/assets/download.jpg" width="200px" alt="agora"/>
 </a>
 </p>
 
