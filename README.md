@@ -1,82 +1,83 @@
-# About
+## App name
+video-app-agora-rtc
 
-packages used-
-npm i agora-rtc-sdk-ng
-
-# VideoApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-
-# Agora Video  Meeting SDK NG
-
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/angulardevelopment/video-app?logo=github&style=social)](https://github.com/angulardevelopment/) [![GitHub last commit](https://img.shields.io/github/last-commit/angulardevelopment/video-app?style=social&logo=git)](https://github.com/angulardevelopment/) [![GitHub stars](https://img.shields.io/github/stars/angulardevelopment/video-app?style=social)](https://github.com/angulardevelopment/video-app/stargazers) [![GitHub forks](https://img.shields.io/github/forks/angulardevelopment/video-app?style=social&logo=git)](https://github.com/angulardevelopment/video-app/network)
-
-Video  Meeting using the Agora Web SDK NG.
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/angulardevelopment/video-app-agora-rtc?logo=github&style=social)](https://github.com/angulardevelopment/) [![GitHub last commit](https://img.shields.io/github/last-commit/angulardevelopment/video-app-agora-rtc?style=social&logo=git)](https://github.com/angulardevelopment/) [![GitHub stars](https://img.shields.io/github/stars/angulardevelopment/video-app-agora-rtc?style=social)](https://github.com/angulardevelopment/video-app-agora-rtc/stargazers) [![GitHub forks](https://img.shields.io/github/forks/angulardevelopment/video-app-agora-rtc?style=social&logo=git)](https://github.com/angulardevelopment/video-app-agora-rtc/network)
 
 <p align="center">
 <a href="#">
-<img src="https://www.agora.io/en/wp-content/themes/agora-2020/images/agora-logo.svg" width="200px" alt="Agora Logo"/>
+<img src="../src/assets/download.jpg" width="200px" alt="agora"/>
 </a>
 </p>
 
-![Generic badge](https://img.shields.io/badge/Voice-Call-orange) 
+<img align="left" src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=angulardevelopment&repo=video-app-agora-rtc&countColorcountColor&countColor=%237B1E7B"/>
+<img align="right" src="https://img.shields.io/github/repo-size/angulardevelopment/video-app-agora-rtc?style=for-the-badge&logo=appveyor" alt="GitHub repo size"/>
+
+<img align="right" alt="video-app-agora-rtc" src="https://socialify.git.ci/angulardevelopment/video-app-agora-rtc/image?font=Inter&forks=1&issues=1&logo=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcT3XNTrF7bUh1kkqV4M7IacbSBLCqgmDAhyVV-Nf7X6nlWhB4eL4-7CfDPaxC0LmyEqX6o%26usqp%3DCAU&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark" />
+
+<p align="center">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" alt=" forks"/>
+</p>
 
 #### Link for [demo](#) 
 [![Generic badge](https://img.shields.io/badge/view-demo-orange)](#)
 
 ## Useful Links
 
-- [Deployed Website](#)
-- [Agora.io Website](https://www.agora.io/)
-- [SDK NG Documentation](https://agoraio-community.github.io/AgoraWebSDK-NG/api/en/index.html)
-- [Guided Blog](#)
+- [api](#)
+- [server](#)
+
 
 ## Requirements
 
-[![GitHub top language](https://img.shields.io/github/languages/top/angulardevelopment/video-app?logo=html&style=social)](https://github.com/angulardevelopment/)
+[![GitHub top language](https://img.shields.io/github/languages/top/angulardevelopment/video-app-agora-rtc?logo=html&style=social)](https://github.com/angulardevelopment/)
 
-The source code of this project is written in **`HTML`, `CSS`, `JavaScript`,`Angular`,`TS` and the `Agora SDK NG`**. So, you would require the Agora SDK NG and a valid App Id to run this project.
+The source code of this project is written in **`JavaScript`, and used `agora-rtc-sdk-ng`**. 
 
 ## Instructions
 
 [![chrome](https://img.shields.io/badge/Open-project-lightgrey.svg?logo=google-chrome&style=popout&logoColor=red)](#)
 
-Open the project and run `ng serve`
+Open the project and run `ng s` 
 
+## Pre-requisites
+npm, nodejs
+## Objective of the project.
+upload build
+## Tech stacks used
+nodejs
+## How to build the application.
+create multiple JS files
+## How to test the application.
+test
+## Software tools used.
+vscode
+## Tangible results.
+build deploy
+## GIFs showing user flows (if customer-facing)
+Templates/screenshots of all the project pages
+
+## Links to web pages
+blog link
+## Links to code/GitHub repository link
+https://github.com/angulardevelopment/video-app-agora-rtc
+## Duration
+1 month
+## build creation and deployment
+[command](https://dashboard.heroku.com/apps/testnodeappnew)
+## Features
+http-proxy
+
+## Support
+Don't Forget to bookmark/star this repo.
+
+## buy me a coffee /Sponsor this project
+ko-fi.com/softwaredev
 
 ## Need help?
+For any Query Ping here- 
+https://bio.link/angulardev
 
-
-Feel free to contact me via [Facebook](#).
-
-Invite me to connect on [LinkedIn](#).
-
-[![Facebook](https://img.shields.io/badge/Facebook-add-blue.svg?logo=facebook&logoColor=white)](#) [![Quora](https://img.shields.io/badge/Quora-ask-red.svg?logo=quora)](#) [![Instagram](https://img.shields.io/badge/Instagram-follow-purple.svg?logo=instagram&logoColor=white)](#) [![Snapchat](https://img.shields.io/badge/Snapchat-add-yellow.svg?logo=snapchat&logoColor=white)](#) [![Medium](https://img.shields.io/badge/Medium-follow-black.svg?logo=medium&logoColor=white)](#)
+[![Facebook](https://img.shields.io/badge/Facebook-add-blue.svg?logo=facebook&logoColor=white)](https://www.facebook.com/learnangular2plus/) [![Instagram](https://img.shields.io/badge/Instagram-follow-purple.svg?logo=instagram&logoColor=white)](https://www.instagram.com/angular_development/) [![Medium](https://img.shields.io/badge/Medium-follow-black.svg?logo=medium&logoColor=white)](https://eraoftech.medium.com/ )
 
 
 ```bash
@@ -115,9 +116,9 @@ ______      _               _   _               _
 
 ## License
 
-**MIT &copy; [Sunny](https://github.com/angulardevelopment/video-app/blob/master/LICENSE)**
+**MIT &copy; [Sunny](https://github.com/angulardevelopment/video-app-agora-rtc/blob/master/LICENSE)**
 
-[![GitHub license](https://img.shields.io/github/license/angulardevelopment/video-app?style=social&logo=github)](https://github.com/angulardevelopment/video-app/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/Sunny_g001?style=social)](#)
+[![GitHub license](https://img.shields.io/github/license/angulardevelopment/video-app-agora-rtc?style=social&logo=github)](https://github.com/angulardevelopment/video-app-agora-rtc/blob/master/LICENSE) 
 
 ---------
 
@@ -130,4 +131,5 @@ if (youEnjoyed) {
 ```
 
 -----------
+
 
