@@ -1,3 +1,5 @@
+ "agora-rtc-sdk-ng": "^4.4.0",
+
 ## App name
 video-app-agora-rtc
 
