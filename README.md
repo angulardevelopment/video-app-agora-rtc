@@ -26,10 +26,8 @@ video app in Angular.
 - npm run start
 
 ### Packages used
--   "agora-rtc-sdk-ng": "^4.4.0",
 
 ### Useful Links
-[heroku](https://dashboard.heroku.com/apps/testnodeappnew)
 
 ## Subscribe and Stay Updated!
 
