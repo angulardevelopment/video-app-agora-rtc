@@ -2,7 +2,7 @@ import { HttpParams } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../services/api.service';
 import { StreamService } from '../services/stream.service';
-import { SignalingService } from '../signaling.service';
+import { SignalingService } from '../services/signaling.service';
 
 @Component({
   selector: 'app-basic',
