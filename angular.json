@@ -62,8 +62,16 @@
                   "maximumError": "4kb"
                 }
               ]
+            },
+            "development": {
+              "optimization": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "aot": false,
+              "buildOptimizer": false
             }
-          }
+          },
+                 "defaultConfiguration": "development"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
@@ -73,6 +81,9 @@
           "configurations": {
             "production": {
               "browserTarget": "video-app:build:production"
+            },
+            "development": {
+              "browserTarget": "video-app:build:development"
             }
           }
         },

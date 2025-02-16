@@ -1,6 +1,7 @@
-<button (click)="open(1)" *ngIf="hide">user1</button>
-<button (click)="open(2)" *ngIf="hide">user2</button>
+<div *ngIf="stream.hide">
+<button (click)="open(1)" >user1</button>
+<button (click)="open(2)" >user2</button>
 
-
+</div>
 
 <router-outlet></router-outlet>

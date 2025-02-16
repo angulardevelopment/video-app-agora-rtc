@@ -14,14 +14,16 @@ export class StreamService {
   };
   options = {
     appId: "",  // set your appid here
-    channel: "test", // Set the channel name.
+    channel: "", // Set the channel name.
     // token: '', // Pass a token if your project enables the App Certificate.
     // uid: null
   };
   remoteUsers: IUser[] = [];       // To add remote users in list
   updateUserInfo = new BehaviorSubject<any>(null); // to update remote users name
-
-  constructor() { }
+  hide = true;
+  constructor() {
+    this.init();
+   }
 
   createRTCClient() {
     this.rtc.client = AgoraRTC.createClient({ mode: "rtc", codec: "h264" });
@@ -77,7 +79,7 @@ export class StreamService {
       let id = user.uid;
       this.remoteUsers.push({ 'uid': +id });
       this.updateUserInfo.next(id);
-      console.log("user-joined", user, this.remoteUsers, 'event1');
+      console.log("user-joined", user, this.remoteUsers);
     });
   }
   // To leave channel-
@@ -96,7 +98,10 @@ export class StreamService {
 
   }
 
-
+init(){
+  localStorage.getItem('user') ? this.hide = false :
+  this.hide = true;
+}
 
 }
 export interface IUser {
