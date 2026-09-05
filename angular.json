@@ -23,7 +23,6 @@
             "outputPath": "dist/video-app",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
@@ -76,28 +75,27 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "video-app:build"
+            "buildTarget": "video-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "video-app:build:production"
+              "buildTarget": "video-app:build:production"
             },
             "development": {
-              "browserTarget": "video-app:build:development"
+              "buildTarget": "video-app:build:development"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "video-app:build"
+            "buildTarget": "video-app:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "main": "src/test.ts",
-            "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
@@ -138,7 +136,6 @@
       }
     }
   },
-  "defaultProject": "video-app",
   "cli": {
     "analytics": false
   }

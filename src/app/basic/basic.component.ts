@@ -3,11 +3,13 @@ import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../services/api.service';
 import { StreamService } from '../services/stream.service';
 import { SignalingService } from '../services/signaling.service';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-basic',
   templateUrl: './basic.component.html',
-  styleUrls: ['./basic.component.scss']
+  styleUrls: ['./basic.component.scss'],
+  imports: [FormsModule]
 })
 export class BasicComponent implements OnInit {
   userName='';

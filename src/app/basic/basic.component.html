@@ -29,13 +29,15 @@
       <div id="local-player" class="player"></div>
     </div>
     <div class="w-100">Remote Users</div>
-    <div class="col" *ngFor="let i of stream.remoteUsers">
+    @for (i of stream.remoteUsers; track i) {
+      <div class="col">
       <div id="{{ 'remote-playerlist' + i.uid}}" class="ui centered medium image" style="  width: 200px;
       height: 200px;">{{i.name}}</div>
-    </div>
+      </div>
+    }
   </div>
 
-  
+
 
 
   <input type="text" id="channel" placeholder="Enter your Name" required class="form-control" [(ngModel)]="userName">

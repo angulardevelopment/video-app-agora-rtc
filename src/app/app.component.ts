@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { StreamService } from './services/stream.service';
 import { HttpParams } from '@angular/common/http';
 import { ApiService } from './services/api.service';
@@ -8,7 +8,8 @@ import { SignalingService } from './services/signaling.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  imports: [RouterOutlet]
 })
 export class AppComponent {
   title = 'video-app';
